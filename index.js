@@ -13,12 +13,19 @@ module.exports = {
    dark: '#0B121B',
    light: '#F8FAFC',
    primary: primary,
-   'primary-lighten': Color(primary).lighten(15),
-   'primary-darken': Color(primary).darken(15),
+   'primary-lighten': Color(primary)
+    .lighten(0.15)
+    .hex(),
+   'primary-darken': Color(primary)
+    .darken(0.15)
+    .hex(),
    secondary: secondary,
-   'secondary-lighten': Color(secondary).lighten(15),
-   'secondary-darken': Color(secondary).darken(15)
+   'secondary-lighten': Color(secondary)
+    .lighten(0.15)
+    .hex(),
+   'secondary-darken': Color(secondary)
+    .darken(0.15)
+    .hex()
   }
- },
- plugins: [require('@tailwindcss/custom-forms')]
+ }
 };
