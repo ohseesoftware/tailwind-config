@@ -1,7 +1,7 @@
 const Color = require('color');
 const { colors } = require('tailwindcss/defaultTheme');
 
-const primmary = '#2A415E';
+const primary = '#2A415E';
 const secondary = '#CC3A5A';
 
 module.exports = {
@@ -13,8 +13,8 @@ module.exports = {
    dark: '#0B121B',
    light: '#F8FAFC',
    primary: primary,
-   'primary-lighten': Color(primray).lighten(15),
-   'primary-darken': Color(primray).darken(15),
+   'primary-lighten': Color(primary).lighten(15),
+   'primary-darken': Color(primary).darken(15),
    secondary: secondary,
    'secondary-lighten': Color(secondary).lighten(15),
    'secondary-darken': Color(secondary).darken(15)
