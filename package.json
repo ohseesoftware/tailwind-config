@@ -22,5 +22,6 @@
   "bugs": {
     "url": "https://github.com/ohseesoftware/tailwind-config/issues"
   },
-  "homepage": "https://github.com/ohseesoftware/tailwind-config#readme"
+  "homepage": "https://github.com/ohseesoftware/tailwind-config#readme",
+  "version": "1.2.0"
 }
