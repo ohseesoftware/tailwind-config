@@ -2,6 +2,8 @@ const Color = require("color");
 const { colors } = require("tailwindcss/defaultTheme");
 
 const brandColors = {
+  dark: "#273240",
+  light: "#FFFFFF",
   primary: "#2A415E",
   secondary: "#CC3A5A",
   red: "#F62727",
@@ -27,8 +29,6 @@ module.exports = {
         gray: colors.gray,
         black: "#000000",
         white: "#FFFFFF",
-        dark: "#273240",
-        light: "#FFFFFF",
       }
     ),
   },
