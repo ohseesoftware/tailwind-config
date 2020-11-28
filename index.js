@@ -2,14 +2,17 @@ const Color = require("color");
 const { colors } = require("tailwindcss/defaultTheme");
 
 const brandColors = {
-  dark: "#273240",
   light: "#FFFFFF",
+  dark: "#273240",
   primary: "#2A415E",
-  secondary: "#CC3A5A",
-  red: "#F62727",
+  secondary: "#DB2777",
+  pink: "#DB2777",
+  red: "#EF4444",
+  orange: "#F97316",
+  amber: "#F59E0B",
+  green: "#84CC16",
+  teal: "#14B8A6",
   blue: "#3C8AFF",
-  green: "#00CA75",
-  orange: "#FF782D",
   indigo: "#AC6BFF",
 };
 
