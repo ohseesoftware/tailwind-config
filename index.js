@@ -5,15 +5,15 @@ const brandColors = {
   light: "#FFFFFF",
   dark: "#273240",
   primary: "#2A415E",
-  secondary: "#DB2777",
-  pink: "#DB2777",
-  red: "#EF4444",
-  orange: "#F97316",
+  secondary: "#F50A73",
+  pink: "#F50A73",
+  red: "#FF1E1E",
+  orange: "#FC8800",
   amber: "#F59E0B",
   green: "#84CC16",
   teal: "#14B8A6",
-  blue: "#3C8AFF",
-  indigo: "#AC6BFF",
+  blue: "#3B82F6",
+  indigo: "#B353FF",
 };
 
 module.exports = {
